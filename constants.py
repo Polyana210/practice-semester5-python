@@ -1,0 +1,9 @@
+ELASTICSEARCH_USERNAME = 'polyana'
+ELASTICSEARCH_PASSWORD = 'polyana'
+ELASTICSEARCH_PORT = 9200
+ELASTICSEARCH_INDEX_NAME = 'my_index'
+
+DATABASE_NAME = 'database.db'
+
+INPUT_FILE_NAME = 'posts.csv'
+OUTPUT_FILE_NAME = 'search_result.csv'

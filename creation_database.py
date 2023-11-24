@@ -1,8 +1,8 @@
 import sqlite3
-import constants
+from constants import *
 
 # Create connect with database
-connection = sqlite3.connect(constants.DATABASE_NAME)
+connection = sqlite3.connect(DATABASE_NAME)
 cursor = connection.cursor()
 
 # Drop table Documents

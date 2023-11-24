@@ -54,12 +54,10 @@ def search_phrase(phrase):
 
     # write information about results into terminal
     print("Found", len(sorted_result_list), "results")
-    if len(sorted_result_list)>20:
-        print('The newest 20 documents are written to a file:', OUTPUT_FILE_NAME)
-    else:
-        print("All documents are written to a file:",OUTPUT_FILE_NAME)
     return search_stat
     
 if __name__ == '__main__':
-    phrase = input('Input phrase to search:')
-    search_phrase(phrase)
+    #phrase = input('Input phrase to search:')
+    search_res = search_phrase("книга")
+    print(search_res["Count"])
+    #search_phrase(phrase)
